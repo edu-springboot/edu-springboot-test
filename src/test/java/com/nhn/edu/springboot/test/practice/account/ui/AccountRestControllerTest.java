@@ -1,7 +1,7 @@
-package com.nhnent.edu.springboot.test.practice.account.ui;
+package com.nhn.edu.springboot.test.practice.account.ui;
 
-import com.nhnent.edu.springboot.test.practice.account.Account;
-import com.nhnent.edu.springboot.test.practice.account.application.AccountService;
+import com.nhn.edu.springboot.test.practice.account.Account;
+import com.nhn.edu.springboot.test.practice.account.application.AccountService;
 import org.junit.Test;
 import org.junit.runner.RunWith;
 import org.springframework.beans.factory.annotation.Autowired;

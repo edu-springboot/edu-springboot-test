@@ -1,4 +1,4 @@
-package com.nhnent.edu.springboot.test.practice.account;
+package com.nhn.edu.springboot.test.practice.account;
 
 import org.springframework.data.jpa.repository.JpaRepository;
 

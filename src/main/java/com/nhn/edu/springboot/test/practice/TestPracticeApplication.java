@@ -1,4 +1,4 @@
-package com.nhnent.edu.springboot.test.practice;
+package com.nhn.edu.springboot.test.practice;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;

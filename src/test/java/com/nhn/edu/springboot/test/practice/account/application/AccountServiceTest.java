@@ -1,13 +1,13 @@
-package com.nhnent.edu.springboot.test.practice.account.application;
+package com.nhn.edu.springboot.test.practice.account.application;
 
-import com.nhnent.edu.springboot.test.practice.account.Account;
+import com.nhn.edu.springboot.test.practice.configuration.SampleConfig;
+import com.nhn.edu.springboot.test.practice.account.Account;
 import org.junit.Test;
 import org.junit.runner.RunWith;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.boot.test.context.SpringBootTest;
 import org.springframework.test.context.junit4.SpringRunner;
 
-import java.time.ZonedDateTime;
 import java.util.List;
 
 import static org.hamcrest.Matchers.*;
@@ -43,7 +43,7 @@ public class AccountServiceTest {
      * 첫번째 계정을 조회하고 내용을 검증하는 테스트케이스 입니다.
      * 最初のアカウントを照会して、内容を検証するためのテストケースです。
      * 
-     * Hint : {@link com.nhnent.edu.springboot.test.practice.config.SampleConfig}
+     * Hint : {@link SampleConfig}
      */
     @Test
     public void getAccount() {

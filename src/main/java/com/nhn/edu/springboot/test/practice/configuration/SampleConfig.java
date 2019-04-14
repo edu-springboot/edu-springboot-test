@@ -1,7 +1,7 @@
-package com.nhnent.edu.springboot.test.practice.config;
+package com.nhn.edu.springboot.test.practice.configuration;
 
-import com.nhnent.edu.springboot.test.practice.account.Account;
-import com.nhnent.edu.springboot.test.practice.account.AccountRepository;
+import com.nhn.edu.springboot.test.practice.account.Account;
+import com.nhn.edu.springboot.test.practice.account.AccountRepository;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.boot.CommandLineRunner;
 import org.springframework.context.annotation.Bean;
@@ -16,7 +16,7 @@ public class SampleConfig {
 
     @Bean
     CommandLineRunner createAccounts() {
-        return (String... args) -> accountRepository.save(Arrays.asList(
+        return (String... args) -> accountRepository.saveAll(Arrays.asList(
             Account.forCreate("mandoo", "SKY"),
             Account.forCreate("jordan", "JMJ"),
             Account.forCreate("dongmyo", "SDM"),
